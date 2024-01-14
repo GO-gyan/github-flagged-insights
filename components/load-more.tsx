@@ -51,10 +51,10 @@ function LoadMore() {
                 ))}
             </div>
 
-            <div ref={ref}>
+            <div ref={ref} data-cy="load-more-skeleton">
                 {inView && isLoading && (
-                    <div className="grid grid-cols-1 gap-10">
-                        {[...Array(10)].map((_, index) => (
+                    <div className="grid grid-cols-1 gap-10 py-10">
+                        {[...Array(5)].map((_, index) => (
                             <RepoCardSkeleton key={index} />
                         ))}
                     </div>

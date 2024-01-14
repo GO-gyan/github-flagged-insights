@@ -23,7 +23,7 @@ function CardPagination({ repos }: CardPaginationProps) {
     }, [visibleRepos, repos]);
 
     return (
-        <section className="grid grid-cols-1 gap-10">
+        <section className="grid grid-cols-1 gap-10" data-cy="card-pagination-section">
             {modifiedRepoData.map((repo: RepoProp, index: number) => (
                 <RepoCard key={repo.id} repo={repo} index={index} handleRepo={handleVisibleRepos} />
             ))}
