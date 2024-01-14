@@ -51,6 +51,10 @@ npm run dev
 npx cypress open
 ```
 
+## Deployment
+
+The application is deployed on Vercel. Visit [GitHub Flagged Insights](https://github-flagged-insights.vercel.app) to explore and flag GitHub repositories.
+
 ## Developer benefits
 
 -   **Improved Performance:** Next.js's server-side rendering results in faster page loads and improved performance, especially for SEO.
