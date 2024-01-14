@@ -45,6 +45,12 @@ npm run dev
 
 4. Open your browser and visit http://localhost:3000 to explore GitHub repositories and set flags.
 
+5. Run the test
+
+```bash
+npx cypress open
+```
+
 ## Developer benefits
 
 -   **Improved Performance:** Next.js's server-side rendering results in faster page loads and improved performance, especially for SEO.
